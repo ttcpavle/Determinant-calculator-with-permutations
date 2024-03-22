@@ -7,7 +7,7 @@ has changed under the transformation.
 This script can calculate a determiniant of nxn matrix given dimension n. This calculation is done using
 all possible permutations of array (1,2...,n). This is the definition:
 
-![images](https://github.com/ttcpavle/Determinant-calculator-with-permutations/assets/159661698/57f5cd0f-61b2-48e1-a1c6-ba06d508ef5b)
+![Screenshot 2024-03-22 212829](https://github.com/ttcpavle/Determinant-calculator-with-permutations/assets/159661698/5a92c367-51e3-4607-b58c-219ea2ebbd36)
 
 This algorithm is very inefficient since number of permutations is very huge and is calculated recursivly but it shows a very interesing property
 of a determinant. Much faster way to calculate det would be using the Gaussian elimination method, which has the time complexity O(n^3).
