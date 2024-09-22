@@ -1,19 +1,3 @@
-/* 
-=============================================================================================
-PROJECT: Determinant calculator
-FILE: determinant.c
-DESCRIPTION:
--Determinant is a function that takes matrix and returns a real number. Geometrically speaking, it is a measure that shows
-us by which factor a vector space is warped with given matrix transformation.
--This script can calculate a determiniant of nxn matrix given dimension n. This calculation is done using
-all possible permutations of array (1,2...,n). Execution time exponentially grows with bigger matrix.
-This algorithm is very inefficient since number of permutation is very huge but it shows a very interesing property
-of a determinant. Much faster way would be using the Gaussian elimination method. Open README file for more info.
-NOTE: be careful when running this code with larger matrix.
-DATE:   22.3.2024
-AUTHOR: Pavle Totic
-=============================================================================================
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -112,7 +96,7 @@ int** RandomMatrix(int n) {
 
 int main(int argc, char** argv) {
     int dim;
-    printf("Enter dimension n of nxn matrix:");
+    printf("Enter dimension n of nxn matrix:"); // NOTE: larger matrces will take much longer to process
     scanf_s("%d", &dim);
     printf("Matrix:\n");
     int** matrix = RandomMatrix(dim);
