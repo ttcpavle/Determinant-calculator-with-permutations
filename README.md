@@ -16,14 +16,12 @@ Recursion algorithm used for permutations in the script is not the most efficien
 
 <img src="https://github.com/ttcpavle/Determinant-calculator-with-permutations/assets/159661698/69dacc10-a0c3-405d-85f1-c6a003a12bbc" alt="x! and x^3 graphs" style="width: 40%; display: block; margin: auto;">
 
-red:  `x!`  (permutations)
+blue:  `x!`  (permutations)
 
-blue: `x^3` (gaussian elimination)
+red: `x^3` (gaussian elimination)
 
 If implemented correctly, calculating smaller matrix determinant with this algorithm should be faster, as you can see in the graph.
 There is always room for improvement. Thank you for reading.
-
-NOTE: this project is under MIT licence
 
 
 
